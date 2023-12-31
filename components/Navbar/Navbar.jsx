@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import './style.css';
+import MusicPlayer from '../MusicPlayer/MusicPlayer';
 
 
 const Navbar = () => {
@@ -25,9 +26,13 @@ const Navbar = () => {
 
   return (
     <nav className={navClass}>
-      <div className='nav-text left-corner'>Dumiendu</div>
-      <div className='nav-text main-menu'>Happy</div>
-      <div className='nav-text right-corner'>Turn on music</div>
+      <div className='nav-text left-corner'><a href={`/`}>Dumiendu</a></div>
+      <div className='nav-text right-corner'>
+        <a href={`/happy`}>Happy</a>
+      </div>
+      <div className='nav-text main-menu'>
+        <MusicPlayer />
+      </div>
     </nav>
   )
 }

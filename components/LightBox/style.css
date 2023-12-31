@@ -1,0 +1,27 @@
+.lightbox_bg {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 0.5 */
+    z-index: 1000; /* Đảm bảo lớp phủ hiển thị trên các phần tử khác */
+}
+
+.lightbox_bg.visible {
+    display: block;
+}
+
+.lightbox_bg.invisible {
+    display: none;
+}
+
+.lightbox_container {
+    width: 40%;
+    height: 70%;
+    object-fit: cover;
+    /* position: relative; */
+}
