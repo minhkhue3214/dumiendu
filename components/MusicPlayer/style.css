@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
 
 .music-container {
@@ -124,4 +124,62 @@
   height: 100%;
   width: 0%;
   transition: width 0.1s linear;
+} */
+
+.music_container{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+}
+
+.music-cover{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  animation: rotateImage 20s linear infinite;
+  animation-play-state: paused;
+}
+
+.music-cover.play {
+  animation-play-state: running;
+}
+
+.music-cover.pause {
+  animation-play-state: paused;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.play-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot{
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  z-index: 9999;
+  position: absolute;
+  top: 40%;
+  border-radius: 50%;
+}
+
+.backward-btn:hover svg path {
+  fill: red; /* Change this to the color you want on hover */
+}
+
+.forward-btn:hover svg path {
+  fill: red; /* Change this to the color you want on hover */
 }

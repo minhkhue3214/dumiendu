@@ -13,7 +13,7 @@ const happy = () => {
     <div className='happy-container'>
       <Navbar />
       <Slider />
-      {/* <MagicBg /> */}
+      <MagicBg />
       <MagicVideo />
       <GridGift />
       <Footer />
