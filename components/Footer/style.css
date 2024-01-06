@@ -12,9 +12,6 @@
     flex-direction: column;
     align-items: center;
     gap:10px;
-}
-
-.social-icon{
     cursor: pointer;
 }
 
@@ -29,3 +26,12 @@
 .tiktok.social-icon:hover svg path {
     stroke: black; /* Change this to the color you want on hover */
 }
+
+.social-icon:hover .social_name {
+    color: black /* Thay thế #your-hover-color bằng màu bạn muốn khi hover */
+  }
+
+  .social_name{
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 0/5px;
+  }

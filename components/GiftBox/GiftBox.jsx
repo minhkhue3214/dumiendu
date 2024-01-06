@@ -1,14 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 
-const GiftBox = () => {
+const GiftBox = ({ openGift, setOpenGift }) => {
   const openBox = () => {
-    alert("testing box")
+    setOpenGift(true)
   }
 
   return (
-    <>
-      <div className="box" onClick={() => openBox()}>
+    <div className="giftBox bounce-in-top ">
+      <div className={`box ${openGift ? 'invisible' : ''}`} onClick={() => openBox()}>
         <div className="box-tape">
           <div className="box-tape-left"></div>
           <div className="box-tape-right"></div>
@@ -24,7 +24,12 @@ const GiftBox = () => {
         <div className="box-star box-star-4"></div>
         <div className="box-star box-star-5"></div>
       </div>
-    </>
+      <div className={`box-content ${openGift ? '' : 'invisible'}`} >
+        <img className='slide-top' src="../../public/webear.gif"></img>
+        <img className='scale-up-center' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"></img>
+        <div className='tracking-in-contract'>Just Happy to know you Just Happy to know you Just Happy to know you Just Happy to know you</div>
+      </div>
+    </div>
   )
 }
 

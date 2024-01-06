@@ -31,7 +31,9 @@ const Navbar = () => {
         <a href={`/happy`}>Happy</a>
       </div>
       <div className='nav-text main-menu'>
-        <MusicPlayer />
+        {/* <MusicPlayer /> */}
+        <a href="">#JasonTodd</a>
+        <img className='avatar' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
       </div>
     </nav>
   )

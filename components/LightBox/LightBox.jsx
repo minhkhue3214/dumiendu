@@ -3,9 +3,14 @@ import GiftBox from '../GiftBox/GiftBox'
 import './style.css'
 
 const LightBox = ({ isDisplay, setisDisplay, imgBox, isGiftGox }) => {
+  const [openGift, setOpenGift] = useState(false)
 
   const closeBg = () => {
-    setisDisplay(false)
+    isGiftGox ? " " : setisDisplay(false)
+    if (openGift) {
+      setOpenGift(false);
+      setisDisplay(false);
+    }
   }
 
   const overlayClass = `lightbox_bg ${isDisplay ? "" : "invisible"}`;
@@ -13,7 +18,7 @@ const LightBox = ({ isDisplay, setisDisplay, imgBox, isGiftGox }) => {
   return (
     <div onClick={() => (closeBg())} className={overlayClass}>
       {
-        isGiftGox ? <GiftBox /> : <img className='lightbox_container' src={imgBox} alt="" />
+        isGiftGox ? <GiftBox openGift={openGift} setOpenGift={setOpenGift} /> : <img className='lightbox_container fade-in-bck' src={imgBox} alt="" />
       }
     </div>
 

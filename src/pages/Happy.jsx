@@ -5,6 +5,7 @@ import MagicVideo from '../../components/MagicVideo/MagicVideo'
 import GridGift from '../../components/GridGift/GridGift';
 import Footer from '../../components/Footer/Footer';
 import MagicBg from '../../components/MagicBg/MagicBg';
+import TerminalText from '../../components/TerminalText/TerminalText';
 
 import './style.css'
 
@@ -13,8 +14,8 @@ const happy = () => {
     <div className='happy-container'>
       <Navbar />
       <Slider />
-      <MagicBg />
       <MagicVideo />
+      <TerminalText />
       <GridGift />
       <Footer />
     </div>

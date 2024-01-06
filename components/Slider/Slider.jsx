@@ -1,12 +1,14 @@
 import React from 'react'
 import { Carousel } from 'antd';
 import './style.css'
+import MagicBg from '../MagicBg/MagicBg';
+
 
 const Slider = () => {
 
     const contentStyle = {
         height: '100vh',
-        width:"100%",
+        width: "100%",
         color: '#fff',
         objectFit: 'cover',
         lineHeight: '160px',
@@ -15,9 +17,10 @@ const Slider = () => {
     };
 
     return (
+        <div className='slider_container'>
             <Carousel autoplay>
                 <div className='sider'>
-                    <img  style={contentStyle} src="/img/bear1.jpg" alt="" />
+                    <img style={contentStyle} src="/img/bear1.jpg" alt="" />
                 </div>
                 <div className='sider'>
                     <img style={contentStyle} src="/img/bear2.jpg" alt="" />
@@ -29,6 +32,8 @@ const Slider = () => {
                     <img style={contentStyle} src="/img/bear4.jpg" alt="" />
                 </div>
             </Carousel>
+            <MagicBg />
+        </div>
     )
 }
 

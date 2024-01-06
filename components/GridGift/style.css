@@ -89,6 +89,7 @@
    grid-row-end: 3;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-2 {
 
@@ -99,6 +100,7 @@
    grid-row-end: 4;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-3 {
 
@@ -109,6 +111,7 @@
    grid-row-end: 3;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-4 {
 
@@ -119,6 +122,7 @@
    grid-row-end: 4;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-5 {
 
@@ -129,6 +133,7 @@
    grid-row-end: 4;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-6 {
@@ -140,6 +145,7 @@
    grid-row-end: 2;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-7 {
@@ -151,6 +157,7 @@
    grid-row-end: 3;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-8 {
@@ -162,6 +169,7 @@
    grid-row-end: 4;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-9 {
@@ -173,6 +181,7 @@
    grid-row-end: 3;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-10 {
@@ -184,6 +193,7 @@
    grid-row-end: 4;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-11 {
 
@@ -194,6 +204,7 @@
    grid-row-end: 3;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-12 {
@@ -205,6 +216,7 @@
    grid-row-end: 2;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-13 {
@@ -216,6 +228,7 @@
    grid-row-end: 3;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-14 {
 
@@ -226,6 +239,7 @@
    grid-row-end: 4;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-15 {
 
@@ -236,6 +250,7 @@
    grid-row-end: 3;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-16 {
 
@@ -246,6 +261,7 @@
    grid-row-end: 4;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-17 {
 
@@ -256,6 +272,7 @@
    grid-row-end: 3;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-18 {
 
@@ -266,6 +283,7 @@
    grid-row-end: 2;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-19 {
 
@@ -276,6 +294,7 @@
    grid-row-end: 4;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .item-20 {
@@ -287,6 +306,7 @@
    grid-row-end: 2;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-21 {
 
@@ -297,6 +317,7 @@
    grid-row-end: 2;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-22 {
 
@@ -307,6 +328,7 @@
    grid-row-end: 3;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-23 {
 
@@ -317,6 +339,7 @@
    grid-row-end: 3;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-24 {
 
@@ -327,6 +350,7 @@
    grid-row-end: 3;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-25 {
 
@@ -337,6 +361,7 @@
    grid-row-end: 4;
    grid-column-end: 2;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-26 {
 
@@ -347,6 +372,7 @@
    grid-row-end: 4;
    grid-column-end: 3;
    cursor: pointer;
+   border-radius: 10px;
 }
 .item-27 {
 
@@ -357,6 +383,7 @@
    grid-row-end: 4;
    grid-column-end: 4;
    cursor: pointer;
+   border-radius: 10px;
 }
 
 .layer1{
@@ -390,6 +417,7 @@
    transition: all 1s 0.3s;
    transform-origin: 0 50%;
    z-index: 2;
+   border-radius: 10px;
 }
 
 .page__1 .number{
@@ -422,6 +450,7 @@
    top: 0;
    left: 0;
    opacity: 1;
+   border-radius: 10px;
 }
 
 .page:hover .page__1 {
@@ -437,6 +466,7 @@
    width: 100%;
    height: 100%;
    object-fit: cover;
+   border-radius: 10px;
 }
 
   

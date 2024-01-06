@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+
+.hidden {
+  opacity: 0;
+}
+
+.console-container {
+  /* font-family:Khula; */
+  font-family: 'Fredoka', sans-serif;
+  font-size: 6em;
+  text-align: center;
+  height: 120px;
+  width: 1500px;
+  display: block;
+  /* position:absolute; */
+  color: red !important;
+  /* top:0;
+  bottom:0;
+  left:0;
+  right:0; */
+  margin: 20px auto;
+}
+
+#text {
+  color: red !important;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 10px;
+}
