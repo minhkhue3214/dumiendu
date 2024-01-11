@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './style.css'
 
-const GiftBox = ({ openGift, setOpenGift }) => {
+const GiftBox = ({ openGift, setOpenGift, onStart }) => {
   const openBox = () => {
     setOpenGift(true)
   }
+
+  useEffect(() => {
+    // onStart()
+  }, [])
 
   return (
     <div className="giftBox bounce-in-top ">
@@ -24,11 +28,13 @@ const GiftBox = ({ openGift, setOpenGift }) => {
         <div className="box-star box-star-4"></div>
         <div className="box-star box-star-5"></div>
       </div>
-      <div className={`box-content ${openGift ? '' : 'invisible'}`} >
-        <img className='slide-top' src="../../public/webear.gif"></img>
-        <img className='scale-up-center' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"></img>
-        <div className='tracking-in-contract'>Just Happy to know you Just Happy to know you Just Happy to know you Just Happy to know you</div>
-      </div>
+      {
+        openGift ? <div className="box-content" >
+          <img className='slide-top' src="../../public/webear.gif" loop playsInline autoPlay />
+          <img className='scale-up-center' src="../../src/assets/img/2.jpg" />
+          <div className='tracking-in-contract'>Just Happy to know you Just Happy to know you Just Happy to know you Just Happy to know you</div>
+        </div> : ""
+      }
     </div>
   )
 }

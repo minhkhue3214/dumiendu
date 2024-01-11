@@ -5,7 +5,7 @@ const TerminalText = () => {
 
     useEffect(() => {
         // function([string1, string2],target id,[color1,color2])    
-        consoleText(['Hello World.', 'Console Text', 'Made with Love.'], 'text', ['black', 'black', 'black']);
+        consoleText(['Hello World.', 'Find the Gift Box', 'Made with Love.'], 'text', ['black', 'black', 'black']);
 
         function consoleText(words, id, colors) {
             if (colors === undefined) colors = ['#fff'];
@@ -30,14 +30,14 @@ const TerminalText = () => {
                         target.setAttribute('style', 'color:' + colors[0])
                         letterCount += x;
                         waiting = false;
-                    }, 1000)
+                    }, 2000)
                 } else if (letterCount === words[0].length + 1 && waiting === false) {
                     waiting = true;
                     window.setTimeout(function () {
                         x = -1;
                         letterCount += x;
                         waiting = false;
-                    }, 1000)
+                    }, 2000)
                 } else if (waiting === false) {
                     target.innerHTML = words[0].substring(0, letterCount)
                     letterCount += x;
@@ -57,9 +57,9 @@ const TerminalText = () => {
         }
     }, [])
     return (
-        <div class='console-container'>
+        <div className='console-container'>
             <span id='text'></span>
-            <div class='console-underscore' id='console'></div>
+            <div className='console-underscore' id='console'></div>
         </div>
     )
 }

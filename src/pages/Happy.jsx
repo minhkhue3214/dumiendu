@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar from '../../components/Navbar2/Navbar2'
 import Slider from '../../components/Slider/Slider'
 import MagicVideo from '../../components/MagicVideo/MagicVideo'
 import GridGift from '../../components/GridGift/GridGift';
-import Footer from '../../components/Footer/Footer';
+import Footer from '../../components/Footer2/Footer';
 import MagicBg from '../../components/MagicBg/MagicBg';
 import TerminalText from '../../components/TerminalText/TerminalText';
 

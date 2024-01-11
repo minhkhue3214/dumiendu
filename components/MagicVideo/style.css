@@ -2,7 +2,7 @@
 
 .magic_video{
     width: 100%;
-    background-color: rgba(255, 30, 0, 0.582);
+    background-color: #C92E05;
     display: flex;
     height: 2000px;
     flex-direction: column;
@@ -30,7 +30,7 @@
 }
 
 .magic_video .video_content .content .text{
-    background-color: rgba(255, 30, 0, 0.582);
+    background-color: #660E04;
     width: 50%;
     height: 100%;
 }

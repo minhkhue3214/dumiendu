@@ -8,16 +8,18 @@ const MagicBg = () => {
       text2: document.getElementById("text2")
     };
 
+    // Hope all your birthday wishes come true.
+
     const texts = [
-      "If",
-      "You",
-      "Like",
-      "It",
-      "Please",
-      "Give",
-      "a Love",
-      ":)",
-      "by @DotOnion"
+      "Hope",
+      "All",
+      "Your",
+      "Birthday",
+      "Wishes",
+      "Come",
+      "True",
+      "^_^",
+      "by @Jason"
     ];
 
     const morphTime = 1;

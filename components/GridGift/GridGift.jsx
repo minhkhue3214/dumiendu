@@ -223,7 +223,7 @@ const GridGift = () => {
                                     <p className="number">19</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={() => (openGiftBox())} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={() => (openGiftBox())} className='box_image' src="https://img.freepik.com/premium-vector/cartoon-illustration-gift-box-with-bow_687775-128.jpg?w=2000" alt="" />
                                 </div>
                             </div></div>
                         <div className="item-19">
@@ -306,7 +306,7 @@ const GridGift = () => {
                                     <p className="number">28</p>
                                 </div>
                                 <div className="page__2">
-                                    <p>Surprise!</p>
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
                                 </div>
                             </div></div>
                     </div>
