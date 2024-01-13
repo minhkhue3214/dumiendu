@@ -101,6 +101,7 @@ const scroll = () => {
 		{ id: '#gallery-4' },
 		{ id: '#gallery-5' },
         { id: '#gallery-6' },
+		// { id: '#gallery-9' },
 	];
 
 	// Loop through the galleries and apply the scroll-triggered animations

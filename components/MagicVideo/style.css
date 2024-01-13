@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 
-.magic_video{
+.magic_video {
     width: 100%;
     background-color: #C92E05;
     display: flex;
@@ -9,13 +9,13 @@
     align-items: center;
 }
 
-.magic_video .video_content{
+.magic_video .video_content {
     width: 100%;
     height: 670px;
     background-color: black;
 }
 
-.magic_video .video_content .content{
+.magic_video .video_content .content {
     height: 100%;
     width: 61%;
     margin: auto;
@@ -23,32 +23,79 @@
     display: flex;
 }
 
-.magic_video .video_content .content .video{
+.magic_video .video_content .content .video {
     background-color: yellow;
     width: 50%;
     height: 100%;
 }
 
-.magic_video .video_content .content .text{
+.magic_video .video_content .content .text {
     background-color: #660E04;
     width: 50%;
     height: 100%;
 }
 
-.video .tiktok{
+.video .tiktok {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.content .text{
-    padding:30px 30px;
+.content .text {
+    padding: 30px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.content .text p{
+.content .text p {
     font-size: 24px;
     font-family: 'Fredoka', sans-serif;
+}
+
+@media (max-width: 640px) {
+    .magic_video .video_content .content {
+        width: 100%;
+    }
+    .content .text p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 640px) {
+    .magic_video .video_content .content {
+        width: 100%;
+    }
+
+    .content .text p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .magic_video .video_content .content {
+        width: 100%;
+    }
+
+    .content .text p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .magic_video .video_content .content {
+        width: 70%;
+    }
+    .content .text p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .magic_video .video_content .content {
+        width: 61%;
+    }
+    .content .text p {
+        font-size: 24px;
+    }
 }

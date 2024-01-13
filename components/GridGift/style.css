@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 
-.gridgift_container{
+.gridgift_container {
    width: 100%;
    display: flex;
    justify-content: center;
@@ -9,11 +9,11 @@
 }
 
 .angry-grid {
-   display: grid; 
+   display: grid;
 
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
-   
+
    gap: 0px;
    height: 500px;
    width: 30%;
@@ -23,11 +23,11 @@
 }
 
 .angry-grid1 {
-   display: grid; 
+   display: grid;
 
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
-   
+
    gap: 0px;
    height: 500px;
    width: 30%;
@@ -37,11 +37,11 @@
 }
 
 .angry-grid2 {
-   display: grid; 
+   display: grid;
 
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
-   
+
    gap: 0px;
    height: 500px;
    width: 30%;
@@ -51,11 +51,11 @@
 }
 
 .angry-grid3 {
-   display: grid; 
+   display: grid;
 
    grid-template-rows: 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr;
-   
+
    gap: 0px;
    height: 500px;
    width: 30%;
@@ -63,7 +63,7 @@
    margin-top: 20px;
    grid-gap: 20px;
 }
-  
+
 .item-0 {
    grid-row-start: 1;
    grid-column-start: 1;
@@ -77,8 +77,9 @@
    position: relative;
    color: #484e4a;
    border-radius: 10%;
-   cursor: pointer;   
+   cursor: pointer;
 }
+
 .item-1 {
 
    grid-row-start: 2;
@@ -89,6 +90,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-2 {
 
    grid-row-start: 3;
@@ -99,6 +101,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-3 {
 
    grid-row-start: 2;
@@ -109,6 +112,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-4 {
 
    grid-row-start: 3;
@@ -119,6 +123,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-5 {
 
    grid-row-start: 2;
@@ -184,6 +189,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-11 {
 
    grid-row-start: 2;
@@ -216,6 +222,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-14 {
 
    grid-row-start: 3;
@@ -226,6 +233,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-15 {
 
    grid-row-start: 1;
@@ -236,6 +244,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-16 {
 
    grid-row-start: 3;
@@ -246,6 +255,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-17 {
 
    grid-row-start: 2;
@@ -256,6 +266,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-18 {
 
    grid-row-start: 1;
@@ -266,6 +277,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-19 {
 
    grid-row-start: 3;
@@ -287,6 +299,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-21 {
 
    grid-row-start: 1;
@@ -297,6 +310,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-22 {
 
    grid-row-start: 2;
@@ -307,6 +321,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-23 {
 
    grid-row-start: 2;
@@ -317,6 +332,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-24 {
 
    grid-row-start: 2;
@@ -327,6 +343,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-25 {
 
    grid-row-start: 3;
@@ -337,6 +354,7 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-26 {
 
    grid-row-start: 3;
@@ -347,9 +365,10 @@
    cursor: pointer;
    border-radius: 10px;
 }
+
 .item-27 {
 
-   background-color: #FEA5CD; 
+   background-color: #FEA5CD;
    grid-row-start: 3;
    grid-column-start: 3;
 
@@ -359,7 +378,7 @@
    border-radius: 10px;
 }
 
-.layer1{
+.layer1 {
    display: flex;
    justify-content: center;
    width: 100%;
@@ -379,7 +398,7 @@
    justify-content: center;
    background-color: rgb(39, 34, 19);
    /* background-color: #110404; */
-   background-image: url("../../public/img/bg3.svg");
+   background-image: url("/img/bg3.svg");
    color: #fff;
    width: 100%;
    height: 100%;
@@ -394,7 +413,7 @@
    border-radius: 10px;
 }
 
-.page__1 .number{
+.page__1 .number {
    font-size: 2rem;
    font-weight: bold;
    font-family: 'Fredoka', sans-serif;
@@ -435,13 +454,159 @@
    opacity: 1;
 }
 
-.box_image{
+.box_image {
    width: 100%;
    height: 100%;
    object-fit: cover;
    border-radius: 10px;
 }
 
-  
+@media (max-width: 640px) {
+   .page__1 .number {
+      font-size: 1rem;
+   }
 
+   .angry-grid {
+      height: 200px;
+      width: 200px;
+      grid-gap: 12px;
+   }
 
+   .angry-grid1 {
+      height: 200px;
+      width: 200px;
+      grid-gap: 12px;
+   }
+
+   .angry-grid2 {
+      height: 200px;
+      width: 200px;
+      grid-gap: 12px;
+   }
+
+   .angry-grid3 {
+      height: 200px;
+      width: 200px;
+      grid-gap: 12px;
+   }
+}
+
+@media (min-width: 640px) {
+   .page__1 .number {
+      font-size: 1.2rem;
+   }
+
+   .angry-grid {
+      height: 300px;
+      width: 300px;
+      grid-gap: 14px;
+   }
+
+   .angry-grid1 {
+      height: 300px;
+      width: 300px;
+      grid-gap: 14px;
+   }
+
+   .angry-grid2 {
+      height: 300px;
+      width: 300px;
+      grid-gap: 14px;
+   }
+
+   .angry-grid3 {
+      height: 300px;
+      width: 300px;
+      grid-gap: 14px;
+   }
+}
+
+@media (min-width: 768px) {
+   .page__1 .number {
+      font-size: 1.5rem;
+   }
+
+   .angry-grid {
+      height: 400px;
+      width: 400px;
+      grid-gap: 16px;
+   }
+
+   .angry-grid1 {
+      height: 400px;
+      width: 400px;
+      grid-gap: 16px;
+   }
+
+   .angry-grid2 {
+      height: 400px;
+      width: 400px;
+      grid-gap: 16px;
+   }
+
+   .angry-grid3 {
+      height: 400px;
+      width: 400px;
+      grid-gap: 16px;
+   }
+}
+
+@media (min-width: 1024px) {
+   .page__1 .number {
+      font-size: 1.7rem;
+   }
+
+   .angry-grid {
+      height: 480px;
+      width: 500px;
+      grid-gap: 18px;
+   }
+
+   .angry-grid1 {
+      height: 480px;
+      width: 500px;
+      grid-gap: 18px;
+   }
+
+   .angry-grid2 {
+      height: 480px;
+      width: 500px;
+      grid-gap: 18px;
+   }
+
+   .angry-grid3 {
+      height: 480px;
+      width: 500px;
+      grid-gap: 18px;
+   }
+}
+
+@media (min-width: 1200px) {
+   .page__1 .number {
+      font-size: 2rem;
+   }
+
+   .angry-grid {
+      height: 500px;
+      width: 550px;
+      grid-gap: 20px;
+   }
+
+   .angry-grid1 {
+      height: 500px;
+      width: 550px;
+      grid-gap: 20px;
+   }
+
+   .angry-grid2 {
+      height: 500px;
+      width: 550px;
+      grid-gap: 20px;
+   }
+
+   .angry-grid3 {
+      height: 500px;
+      width: 550px;
+      grid-gap: 20px;
+   }
+}

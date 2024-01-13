@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import GiftBox from '../GiftBox/GiftBox'
-import './style.css'
+import React, { useState } from 'react';
+import GiftBox from '../GiftBox/GiftBox';
+import './style.css';
 
 const LightBox = ({ isDisplay, setisDisplay, imgBox, isGiftGox }) => {
   const [openGift, setOpenGift] = useState(false)
-  let audio = new Audio("../../public/Vai-Lan-Don-Dua-Cover-SOOBIN-Touliver.mp3")
+  // let audio = new Audio("../../public/Vai-Lan-Don-Dua-Cover-SOOBIN-Touliver.mp3")
 
 
   const closeBg = () => {

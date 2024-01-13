@@ -32,3 +32,39 @@
 
     user-select: none;
 }
+
+@media (max-width: 640px) {
+    #text1,
+    #text2 {
+        font-size: 40pt;
+    }
+}
+
+@media (min-width: 640px) {
+    #text1,
+    #text2 {
+        font-size: 60pt;
+    }
+}
+
+@media (min-width: 768px) {
+    #text1,
+    #text2 {
+        font-size: 80pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    #text1,
+    #text2 {
+        font-size: 100pt;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #text1,
+    #text2 {
+        font-size: 120pt;
+    }
+}

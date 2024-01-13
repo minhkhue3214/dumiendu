@@ -49,7 +49,7 @@ const GridGift = () => {
                                     <p className="number">2</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/gif/gif1.webp" alt="" />
                                 </div>
                             </div>
                         </div>

@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className='nav-text main-menu'>
         {/* <MusicPlayer /> */}
         <a href="">#JasonTodd</a>
-        <img className='avatar' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+        {/* <img className='avatar' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" /> */}
       </div>
     </nav>
   )
