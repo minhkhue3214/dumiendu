@@ -5,13 +5,13 @@ const Gallery1 = () => {
     <>
       <div className="gallery-wrap">
         <div className="gallery gallery--row" id="gallery-1">
-          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(../public/dumiendu/look01/01.jpg)' }}></div>
-          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(../public/dumiendu/look01/02.jpg)' }}></div>
-          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(../public/dumiendu/look01/03.jpg)' }}></div>
-          <div className="gallery__item gallery__item--xl gallery__item--center" style={{ backgroundImage: 'url(../public/dumiendu/look01/06.jpg)' }}></div>
-          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(../public/dumiendu/look02/01.jpg)' }}></div>
-          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(../public/dumiendu/look02/02.jpg)' }}></div>
-          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(../public/dumiendu/look02/03.jpg)' }}></div>
+          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(/dumiendu/look01/01.jpg)' }}></div>
+          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(/dumiendu/look01/02.jpg)' }}></div>
+          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(/dumiendu/look01/03.jpg)' }}></div>
+          <div className="gallery__item gallery__item--xl gallery__item--center" style={{ backgroundImage: 'url(/dumiendu/look01/06.jpg)' }}></div>
+          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(/dumiendu/look02/01.jpg)' }}></div>
+          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(/dumiendu/look02/02.jpg)' }}></div>
+          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(/dumiendu/look02/03.jpg)' }}></div>
           <div className="caption">
             Within this meticulously arranged AI-generated ensemble lies a tantalizing facade, captivating our gaze. Yet, as we search for the soul of human expression, we question whether algorithms can truly embody the essence of authentic art.
           </div>
