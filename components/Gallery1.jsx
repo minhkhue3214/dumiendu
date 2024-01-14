@@ -5,10 +5,10 @@ const Gallery1 = () => {
     <>
       <div className="gallery-wrap">
         <div className="gallery gallery--row" id="gallery-1">
-          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(/dumiendu/look01/01.jpg)' }}></div>
-          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(/dumiendu/look01/02.jpg)' }}></div>
-          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(/dumiendu/look01/03.jpg)' }}></div>
-          <div className="gallery__item gallery__item--xl gallery__item--center" style={{ backgroundImage: 'url(/dumiendu/look01/06.jpg)' }}></div>
+          <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(/look01/01.jpg)' }}></div>
+          <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(/look01/02.jpg)' }}></div>
+          <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(/look01/03.jpg)' }}></div>
+          <div className="gallery__item gallery__item--xl gallery__item--center" style={{ backgroundImage: 'url(/look01/06.jpg)' }}></div>
           <div className="gallery__item gallery__item--l" style={{ backgroundImage: 'url(/look02/01.jpg)' }}></div>
           <div className="gallery__item gallery__item--m" style={{ backgroundImage: 'url(/look02/02.jpg)' }}></div>
           <div className="gallery__item gallery__item--s" style={{ backgroundImage: 'url(/look02/03.jpg)' }}></div>

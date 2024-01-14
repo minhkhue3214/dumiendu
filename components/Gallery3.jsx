@@ -9,21 +9,21 @@ const Gallery3 = () => {
             </section>
             <div className="gallery-wrap">
                 <div className="gallery gallery--grid10" id="gallery-3">
-                    <div className="gallery__item pos-1" style={{ backgroundImage: 'url(/dumiendu/look01/01.jpg)' }}></div>
+                    <div className="gallery__item pos-1" style={{ backgroundImage: 'url(/look01/01.jpg)' }}></div>
                     <div className="gallery__item pos-2" style={{ backgroundImage: 'url(/look02/01.jpg)' }}></div>
-                    <div className="gallery__item pos-3" style={{ backgroundImage: 'url(/dumiendu/look01/02.jpg)' }}></div>
-                    <div className="gallery__item pos-4" style={{ backgroundImage: 'url(/dumiendu/look01/03.jpg)' }}></div>
+                    <div className="gallery__item pos-3" style={{ backgroundImage: 'url(/look01/02.jpg)' }}></div>
+                    <div className="gallery__item pos-4" style={{ backgroundImage: 'url(/look01/03.jpg)' }}></div>
                     <div className="gallery__item pos-5" style={{ backgroundImage: 'url(/look02/02.jpg)' }}></div>
-                    <div className="gallery__item pos-6" style={{ backgroundImage: 'url(/dumiendu/look01/04.jpg)' }}></div>
+                    <div className="gallery__item pos-6" style={{ backgroundImage: 'url(/look01/04.jpg)' }}></div>
                     <div className="gallery__item pos-7" style={{ backgroundImage: 'url(/look02/03.jpg)' }}></div>
-                    <div className="gallery__item pos-8" style={{ backgroundImage: 'url(/dumiendu/look01/10.jpg)' }}></div>
-                    <div className="gallery__item pos-9" style={{ backgroundImage: 'url(/dumiendu/look01/01.jpg)' }}></div>
-                    <div className="gallery__item pos-10" style={{ backgroundImage: 'url(/dumiendu/look01/06.jpg)' }}></div>
+                    <div className="gallery__item pos-8" style={{ backgroundImage: 'url(/look01/10.jpg)' }}></div>
+                    <div className="gallery__item pos-9" style={{ backgroundImage: 'url(/look01/01.jpg)' }}></div>
+                    <div className="gallery__item pos-10" style={{ backgroundImage: 'url(/look01/06.jpg)' }}></div>
                     <div className="gallery__item pos-11" style={{ backgroundImage: 'url(/look02/04.jpg)' }}></div>
-                    <div className="gallery__item pos-12" style={{ backgroundImage: 'url(/dumiendu/look01/07.jpg)' }}></div>
+                    <div className="gallery__item pos-12" style={{ backgroundImage: 'url(/look01/07.jpg)' }}></div>
                     <div className="gallery__item pos-13" style={{ backgroundImage: 'url(/look02/01.jpg)' }}></div>
-                    <div className="gallery__item pos-14" style={{ backgroundImage: 'url(/dumiendu/look01/08.jpg)' }}></div>
-                    <div className="gallery__item pos-15" style={{ backgroundImage: 'url(/dumiendu/look01/09.jpg)' }}></div>
+                    <div className="gallery__item pos-14" style={{ backgroundImage: 'url(/look01/08.jpg)' }}></div>
+                    <div className="gallery__item pos-15" style={{ backgroundImage: 'url(/look01/09.jpg)' }}></div>
                     <div className="gallery__item pos-16" style={{ backgroundImage: 'url(/look02/05.jpg)' }}></div>
                     <div className="caption">The Art of Perfection?</div>
                 </div>

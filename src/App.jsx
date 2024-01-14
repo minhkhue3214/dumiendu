@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react'
-import './App.css'
 import Gallery1 from '../components/Gallery1';
 import Gallery2 from '../components/Gallery2';
 import Gallery3 from '../components/Gallery3';
