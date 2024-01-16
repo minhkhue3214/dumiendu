@@ -17,18 +17,9 @@ const router = createBrowserRouter([
   },
   {
     path: "/happy",
-    element: <Navbar/>,
+    element: <Happy/>,
   },
 ]);
-
-// You can do this:
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<App />}>
-//       <Route path="happy" element={<Happy />} />
-//     </Route>
-//   )
-// );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
