@@ -22,19 +22,19 @@ const Slider = () => {
         <div className='slider_container'>
             <Carousel autoplay>
                 <div className='slider'>
-                    <img style={contentStyle} src="/bgslider/cake1.jpg" alt="" />
+                    <img style={contentStyle} src="../../public/bgslider/cake1.webp" alt="" />
                     {/* <img style={contentStyle} src="/img/1.jpg" alt="" /> */}
                 </div>
                 <div className='slider'>
-                    <img style={contentStyle} src="/bgslider/cake2.jpg" alt="" />
+                    <img style={contentStyle} src="../../public/bgslider/cake2.webp" alt="" />
                     {/* <img style={contentStyle} src="/img/1.jpg" alt="" /> */}
                 </div>
                 <div className='slider'>
-                    <img style={contentStyle} src="/bgslider/cake3.jpeg" alt="" />
+                    <img style={contentStyle} src="../../public/bgslider/cake3.webp" alt="" />
                     {/* <img style={contentStyle} src="/img/1.jpg" alt="" /> */}
                 </div>
                 <div className='slider'>
-                    <img style={contentStyle} src="/bgslider/cake4.jpg" alt="" />
+                    <img style={contentStyle} src="../../public/bgslider/cake4.webp" alt="" />
                     {/* <img style={contentStyle} src="/img/1.jpg" alt="" /> */}
                 </div>
             </Carousel>
