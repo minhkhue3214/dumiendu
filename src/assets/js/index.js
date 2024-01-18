@@ -46,13 +46,13 @@ const triggerFlipOnScroll = (galleryEl, options) => {
 	settings = Object.assign({}, settings, options);
 	
 	// Select elements within the gallery that will be animated
-	// const galleryCaption = galleryEl.querySelector('.caption');
+	const galleryCaption = galleryEl.querySelector('.caption');
 	const galleryItems = galleryEl.querySelectorAll('.gallery__item');
 	const galleryItemsInner = [...galleryItems].map(item => item.children.length > 0 ? [...item.children] : []).flat();
 	
 	// Temporarily add the final class to capture the final state
 	galleryEl.classList.add('gallery--switch');
-	const flipstate = Flip.getState([galleryItems], {props: 'filter, opacity'});
+	const flipstate = Flip.getState([galleryItems, galleryCaption], {props: 'filter, opacity'});
 
 	// Remove the final class to revert to the initial state
 	galleryEl.classList.remove('gallery--switch');
