@@ -20,8 +20,8 @@
 }
 
 .lightbox_container {
-    width: 40%;
-    height: 70%;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     border-radius: 20px;
     /* position: relative; */
