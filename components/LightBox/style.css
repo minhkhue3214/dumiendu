@@ -1,35 +1,36 @@
 .lightbox_bg {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); 
-    z-index: 1000; /* Đảm bảo lớp phủ hiển thị trên các phần tử khác */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  /* Đảm bảo lớp phủ hiển thị trên các phần tử khác */
 }
 
 .lightbox_bg.visible {
-    display: block;
+  display: block;
 }
 
 .lightbox_bg.invisible {
-    display: none;
+  display: none;
 }
 
 .lightbox_container {
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 20px;
-    /* position: relative; */
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+  /* position: relative; */
 }
 
 .fade-in-bck {
-	-webkit-animation: fade-in-bck 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-bck 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: fade-in-bck 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in-bck 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 /* ----------------------------------------------
@@ -44,29 +45,65 @@
  * animation fade-in-bck
  * ----------------------------------------
  */
- @-webkit-keyframes fade-in-bck {
-    0% {
-      -webkit-transform: translateZ(80px);
-              transform: translateZ(80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
+@-webkit-keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+    transform: translateZ(80px);
+    opacity: 0;
   }
-  @keyframes fade-in-bck {
-    0% {
-      -webkit-transform: translateZ(80px);
-              transform: translateZ(80px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
   }
-  
-  
+}
+
+@keyframes fade-in-bck {
+  0% {
+    -webkit-transform: translateZ(80px);
+    transform: translateZ(80px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .lightbox_container {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media (min-width: 640px) {
+  .lightbox_container {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lightbox_container {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lightbox_container {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lightbox_container {
+    width: 450px;
+    height: 450px;
+  }
+}
