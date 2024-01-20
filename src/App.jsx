@@ -20,7 +20,7 @@ function App() {
 			<Gallery5 />
 			<Gallery6 />
 			{/* <Gallery7 /> */}
-			<ScrollUp />
+			{/* <ScrollUp /> */}
 			<Footer />
 		</>
 	)

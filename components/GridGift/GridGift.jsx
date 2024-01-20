@@ -59,7 +59,7 @@ const GridGift = () => {
                                     <p className="number">3</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/1.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const GridGift = () => {
                                     <p className="number">5</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/2.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const GridGift = () => {
                                     <p className="number">7</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/3.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -121,7 +121,7 @@ const GridGift = () => {
                                     <p className="number">9</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/4.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ const GridGift = () => {
                                     <p className="number">11</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/5.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ const GridGift = () => {
                                     <p className="number">13</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/6.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -176,7 +176,7 @@ const GridGift = () => {
                                     <p className="number">14</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/14.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ const GridGift = () => {
                                     <p className="number">15</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/12.webp" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -205,7 +205,7 @@ const GridGift = () => {
                                     <p className="number">17</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/8.webp" alt="" />
                                 </div>
                             </div></div>
                         <div className="item-17">
@@ -243,7 +243,7 @@ const GridGift = () => {
                                     <p className="number">21</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/9.webp" alt="" />
                                 </div>
                             </div></div>
                         <div className="item-21">
@@ -261,7 +261,7 @@ const GridGift = () => {
                                     <p className="number">23</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/10.webp" alt="" />
                                 </div>
                             </div></div>
                         <div className="item-23">
@@ -297,7 +297,7 @@ const GridGift = () => {
                                     <p className="number">27</p>
                                 </div>
                                 <div className="page__2">
-                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png" alt="" />
+                                    <img onClick={(e) => (openLightBox(e))} className='box_image' src="/meme/13.webp" alt="" />
                                 </div>
                             </div></div>
                         <div className="item-27">
