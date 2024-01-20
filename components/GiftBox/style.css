@@ -111,6 +111,7 @@
 .box-gifts {
   animation: box-Bounce 1.5s ease-in-out infinite;
   /* background: linear-gradient(#cc2424, #cc2424) 50% 50% /3.3em 100% no-repeat, #dfd9d9; */
+  background-color:rgb(2, 136, 2);
   background: linear-gradient(#cc2424, #cc2424) 50% 50% /3.3em 100% no-repeat, url('https://media.istockphoto.com/id/1875855830/vi/vec-to/li%E1%BB%81n-m%E1%BA%A1ch-k%E1%BA%BB-s%E1%BB%8Dc-xanh-s%E1%BB%8Dc-l%C3%A1t-g%E1%BA%A1ch-l%E1%BA%B7p-l%E1%BA%A1i-m%C3%B4-h%C3%ACnh-n%E1%BB%81n-tr%E1%BB%ABu-t%C6%B0%E1%BB%A3ng-ng%C3%A0y-th%C3%A1nh-patrick.jpg?s=2048x2048&w=is&k=20&c=BXRyTspFpYst9sajIzbwmKm3-awzT0sjQ5aym1RJNic=') 100% 100% /9rem 100%;
   border-radius: 1.5em;
   bottom: 0.5em;
@@ -130,6 +131,7 @@
 
 .box-gift {
   animation: box-Bounce2 1.5s ease-in-out infinite;
+  background-color:rgb(2, 136, 2);
   background: linear-gradient(#ee2e2e, #ee2e2e) 50% 50% /3.3em 100% no-repeat, url('https://media.istockphoto.com/id/1875855830/vi/vec-to/li%E1%BB%81n-m%E1%BA%A1ch-k%E1%BA%BB-s%E1%BB%8Dc-xanh-s%E1%BB%8Dc-l%C3%A1t-g%E1%BA%A1ch-l%E1%BA%B7p-l%E1%BA%A1i-m%C3%B4-h%C3%ACnh-n%E1%BB%81n-tr%E1%BB%ABu-t%C6%B0%E1%BB%A3ng-ng%C3%A0y-th%C3%A1nh-patrick.jpg?s=2048x2048&w=is&k=20&c=BXRyTspFpYst9sajIzbwmKm3-awzT0sjQ5aym1RJNic=') 100% 100% /10rem 300%;
   bottom: 8.7em;
   left: 2.5em;

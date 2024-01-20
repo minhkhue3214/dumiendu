@@ -24,7 +24,7 @@
 }
 
 .magic_video .video_content .content .video {
-    background-color: yellow;
+    background-color: #660E04;
     width: 50%;
     height: 100%;
 }
@@ -66,7 +66,7 @@
     }
 
     .magic_video {
-        height: 1300px;
+        height: 1350px;
     }
 }
 

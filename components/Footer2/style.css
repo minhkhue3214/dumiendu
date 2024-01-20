@@ -40,8 +40,8 @@
 }
 
 .social_name {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0/5px;
+    /* font-family: "Raleway", sans-serif; */
+    letter-spacing: 0.9px;
 }
 
 @media (max-width: 640px) {
